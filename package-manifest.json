@@ -1,0 +1,18 @@
+{
+  "product_id": "JLZ-EDU-SK-019",
+  "repository_name": "edu-objection-response-classifier",
+  "product_type": "Skill",
+  "version": "1.0.0",
+  "package_path": "dist/edu-objection-response-classifier-v1.0.0.zip",
+  "sha256": "BD2A63FF7F574A7034B002BD79B9F6C9C54D75371584269A0942857BAA375F6B",
+  "bytes": 5018,
+  "entries": [
+    "edu-objection-response-classifier/SKILL.md",
+    "edu-objection-response-classifier/references/DOMAIN_GUIDE.md",
+    "edu-objection-response-classifier/references/EXAMPLES.md",
+    "edu-objection-response-classifier/templates/OUTPUT_TEMPLATE.md"
+  ],
+  "built_at": "2026-11-06T21:40:39.9760720+08:00",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED"
+}
