@@ -6,19 +6,38 @@
   "repository_name": "edu-objection-response-classifier",
   "product_type": "Skill",
   "category": "02 销售转化中心",
-  "version": "1.0.0",
-  "status": "PACKAGE_READY",
-  "workbuddy_validation": "NOT_VERIFIED",
+  "version": "1.0.1",
+  "previous_version": "1.0.0",
+  "g5_status": "G5_STRENGTHENED",
+  "status": "G9_PRE_RELEASE_ACCEPTED",
+  "package_state": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+  "runtime_status": "NOT_RUNTIME_VERIFIED",
+  "workbuddy_validation": "WORKBUDDY_VALIDATION_NOT_IN_SCOPE",
   "license": "Apache-2.0",
   "baseline_tag": "education-product-baseline-v1.0.0",
-  "package_path": "dist/edu-objection-response-classifier-v1.0.0.zip",
+  "baseline_commit": "86bcadd22f88eba1af4433459ba7388d256d75b7",
+  "package_path": "dist/edu-objection-response-classifier-v1.0.1.zip",
+  "previous_package_path": "dist/edu-objection-response-classifier-v1.0.0.zip",
+  "previous_package_sha256": "BD2A63FF7F574A7034B002BD79B9F6C9C54D75371584269A0942857BAA375F6B",
   "calculator": false,
   "core_input": "家长原话、异议场景、课程与价格、已提供证据、决策阶段",
   "main_output": "异议类型、真实顾虑假设、回应要点、证据需求、可验证话术和不可承诺项",
+  "main_output_fields": [
+    "异议类型",
+    "真实顾虑假设",
+    "回应要点",
+    "证据需求",
+    "可验证话术和不可承诺项"
+  ],
   "package_entries": [
     "edu-objection-response-classifier/SKILL.md",
     "edu-objection-response-classifier/references/DOMAIN_GUIDE.md",
     "edu-objection-response-classifier/references/EXAMPLES.md",
-    "edu-objection-response-classifier/templates/OUTPUT_TEMPLATE.md"
+    "edu-objection-response-classifier/templates/OUTPUT_TEMPLATE.md",
+    "edu-objection-response-classifier/README.md",
+    "edu-objection-response-classifier/USAGE.md",
+    "edu-objection-response-classifier/LICENSE",
+    "edu-objection-response-classifier/THIRD_PARTY_NOTICES.md",
+    "edu-objection-response-classifier/scripts/validate_input.js"
   ]
 }
